@@ -17,7 +17,7 @@ body {
 }
 
 main {
-    padding-top: 85px;
+    padding-top: 83px;
     padding-bottom: 100px;
 }
 
@@ -152,19 +152,24 @@ nav a:hover {
     background-color: #2a6ad4;
 }
 
-.small-text {
-    background-color: aqua;
-    margin-right: 405px;
-    margin-top: none;
-}
-
-.sect-2 {
-    display: grid;
-    margin-left: 40px;
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 50px;
-}
+    margin-bottom: 50px;
+  }
+  img {
+    max-width: 90%;
+    margin-top: none;
+  }
+  .image {
+    flex-basis: 60%;
 
-.vpn {
-    float: left;
-    width: 300px;
-}
+  }
+  .text {
+    font-size: 18px;
+    padding-left: 20px;
+    color: aliceblue;
+    padding-right: 30px;
+  }
