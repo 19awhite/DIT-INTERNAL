@@ -156,7 +156,6 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
     margin-bottom: 50px;
   }
   img {
@@ -170,15 +169,22 @@ nav a:hover {
   .text {
     font-size: 18px;
     padding-left: 20px;
-    color: aliceblue;
+    color: #00215b;
     padding-right: 30px;
   }
 
 .intro {
     color: #00215b;
     text-align: center;
-    margin-top: 80px;
-    padding-bottom: 50px;
-    margin-right: 50px;
-    margin-left: 50px;
+    padding: 60px;
+    background-color: rgb(255, 255, 255);
+    
   }
+
+.header1 {
+    font-weight: 400px;
+    height: 50px;
+    background-color: #5b8ee3;
+
+}
+
