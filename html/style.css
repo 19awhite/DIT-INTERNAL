@@ -10,7 +10,7 @@
 
 body {
     margin: 0;
-    background: #bdb6bd;
+    background: #fff;
     font-family: 'Poppins', sans-serif;
     font-weight: 300; 
     padding-bottom: 0px;
@@ -109,15 +109,19 @@ nav a:hover {
     
 }
 
+/* nav styles finish here */
+
 .footer li {
     list-style: none;
 }
+
+/* hero image styles */
 
 .hero {
     display: flex;
     flex-direction: column;
     background-image: url(images/hacker.jpeg);
-    height: 500px;
+    height: 622px;
     width: 100%;
     align-self: center;
     background-repeat: no-repeat;
@@ -136,8 +140,11 @@ nav a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    
+    
 }
-
+ 
+/* button styles */
 .button {
     background-color: #5b8ee3;
     color: azure;
@@ -153,39 +160,79 @@ nav a:hover {
     background-color: #2a6ad4;
 }
 
+/* button styles finish here */
+/* image, text and button styling starts here */
+
 .container1 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
+    margin-top: 30px;
   }
   img {
     max-width: 90%;
     margin-top: none;
   }
   .image {
-    flex-basis: 60%;
-
+    max-width: 60%;
+    margin: 0px;
+    margin-left: 30px;
   }
+
   .text {
     font-size: 18px;
-    padding-left: 20px;
     color: #00215b;
     padding-right: 30px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    margin: 0px;
+    width: 100%;
   }
+
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.text1 {
+    font-size: 18px;
+    color: #00215b;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    margin: 0px;
+    width: 100%;
+    text-align: right;
+    
+}
+
+.image2 {
+    padding-left: 50px;
+}
 
 .intro {
     color: #00215b;
     text-align: center;
     padding: 60px;
-    background-color: rgb(255, 255, 255);
+    background-color: #F4F6F4;
+    width: 100%;
     
   }
 
 .header1 {
     font-weight: 400px;
     height: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
 
+.header2 {
+    font-size: 40px;
+    margin-bottom: 9px;
 }
 
