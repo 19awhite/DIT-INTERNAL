@@ -19,6 +19,7 @@ body {
 main {
     padding-top: 83px;
     padding-bottom: 100px;
+    color: #00215b;
 }
 
 .content {
@@ -186,8 +187,9 @@ nav a:hover {
     padding-right: 30px;
     padding-bottom: 40px;
     background-color: #fff;
-    margin: 0px;
+    margin: auto;
     width: 100%;
+    
   }
 
 
@@ -212,22 +214,43 @@ nav a:hover {
     background-color: #fff;
     width: 100%;
     text-align: right;
+    padding-right: 40px;
 
     
 }
 
 .image2 {
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+@media only screen and (max-width: 500px) {
     .text1 {
       width: 100%;
-      float: none;
       margin: auto;
+      height: auto;
     }
     .image2 {
       margin-right: auto;
+      width: 100%;
+      height: auto;
+      margin: auto;
+      padding:auto;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .type {
+        width: 100%;
+        height: auto;
+        margin:0;
+    }
+
+    .text {
+        width: 100%;
+        height: auto; 
     }
   }
 
@@ -252,3 +275,93 @@ nav a:hover {
     margin-bottom: 9px;
 }
 
+/* computer security page styles start here */
+
+/* hero image and header styles begin */
+
+.hero-text2 {
+    padding-top: 0px;
+    margin-top: none;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.hero2 {
+    display: flex;
+    flex-direction: column;
+    filter: brightness(85%);
+    background-image: url(images/people.avif);
+    height: 622px;
+    width: 100%;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+/* finish */
+
+/* styling for rest of page begins */
+
+.type {
+    margin: 50px 50px;
+
+}
+
+.triad {
+    padding: 20px 20px;
+}
+
+.imagetriad {
+    float: right;
+    padding-bottom: 30px;
+    width: auto;
+}
+
+.video {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.practices {
+    text-align: left;
+    padding:30px 40px;
+}
+
+.sum {
+    padding: 10px 40px;
+}
+
+/* solutions page styling starts here */
+
+.hero3 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/design.avif);
+    height: 622px;
+    width: 100%;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(82%);
+
+}
+
+.hero-text3 {
+    padding-top: 0px;
+    margin-top: none;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
