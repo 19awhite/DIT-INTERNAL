@@ -100,10 +100,6 @@ nav a:hover {
     
 }
 
-.nav-toggle:checked ~ nav {
-    display: flexbox;
-    
-}
 
 .nav-toggle {
     display: none;
@@ -151,7 +147,6 @@ nav a:hover {
 
 .hero-text {
     padding-top: 0px;
-    margin-top: none;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -190,7 +185,6 @@ nav a:hover {
   }
   img {
     max-width: 90%;
-    margin-top: none;
   }
   .image {
     float: left;
@@ -200,7 +194,6 @@ nav a:hover {
 
   .text {
     padding-left: 40px;
-    text-align: auto;
     width: 100%;
     height: auto;
     margin: auto;
@@ -250,7 +243,6 @@ nav a:hover {
       width: 100%;
       height: auto;
       margin: auto;
-      padding:auto;
     }
 
     .img {
@@ -288,7 +280,6 @@ nav a:hover {
 }
 
 .header1 {
-    font-weight: 400px;
     height: 50px;
     margin-bottom: 30px;
     font-size: 26px;
@@ -323,7 +314,6 @@ nav a:hover {
 
 .hero-text2 {
     padding-top: 0px;
-    margin-top: none;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -384,7 +374,6 @@ nav a:hover {
 .threat {
     padding-left: 40px;
     padding-right: 40px;
-    text-align: auto;
     width: 100%;
     height: auto;
     margin: auto;
@@ -425,7 +414,6 @@ nav a:hover {
 
 .hero-text3 {
     padding-top: 0px;
-    margin-top: none;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -444,7 +432,6 @@ nav a:hover {
 
 .vpn {
     padding-left: 40px;
-    text-align: auto;
     width: 100%;
     height: auto;
     margin: auto;
